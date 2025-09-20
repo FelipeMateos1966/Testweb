@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultor BI - Felipe Mateos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #00509e;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #00509e;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: #f5f5f5;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Felipe Mateos</h1>
+    <p>Consultor en Business Intelligence y Automatización</p>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy economista y consultor especializado en Business Intelligence, automatización de procesos y dirección financiera. Mi misión es ayudar a empresas a transformar sus datos en decisiones estratégicas y simplificar su gestión mediante soluciones digitales inteligentes.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="card">
+      <h3>Inteligencia de Negocio</h3>
+      <p>Diseño y desarrollo de cuadros de mando, reportes dinámicos y análisis de datos para impulsar decisiones basadas en información real.</p>
+    </div>
+    <div class="card">
+      <h3>Automatización de Procesos</h3>
+      <p>Implementación de flujos automatizados para optimizar tiempos y reducir errores en tareas repetitivas.</p>
+    </div>
+    <div class="card">
+      <h3>Dirección Financiera</h3>
+      <p>Asesoramiento en control financiero, planificación presupuestaria y mejora de la eficiencia en la gestión administrativa.</p>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <p>Algunos de mis últimos trabajos incluyen:</p>
+    <ul>
+      <li>Cuadro de mando de ventas en Power BI para empresa de retail.</li>
+      <li>Automatización de reporting financiero en Excel y Access.</li>
+      <li>Desarrollo de sistema de control de caja y desembolsos para pymes.</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si quieres transformar los datos de tu empresa en resultados, no dudes en ponerte en contacto:</p>
+    <p><strong>Email:</strong> <a href="mailto:felipemateoscepeda@gmail.com">felipemateoscepeda@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com" target="_blank">Perfil Profesional</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Felipe Mateos - Consultor BI y Automatización</p>
+  </footer>
+
+</body>
+</html>
